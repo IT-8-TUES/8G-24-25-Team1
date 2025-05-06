@@ -1,14 +1,12 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: Verdana, sans-serif;;
 }
 nav{
   position: fixed;
   z-index: 99;
   width: 100%;
-  
   background: #242526;
 }
 nav .menu-view{
@@ -21,12 +19,6 @@ nav .menu-view{
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.menu-view .logo a{
-  color: #f2f2f2;
-  font-size: 30px;
-  font-weight: 600;
-  text-decoration: none;
 }
 .menu-view .menu-links{
   display: inline-flex;
@@ -70,32 +62,8 @@ nav .menu-view{
   font-weight: 400;
   border-radius: 0px;
 }
-.menu-view .btn{
-  color: #fff;
-  font-size: 20px;
-  cursor: pointer;
-  display: none;
-}
-.menu-view .btn.close-btn{
-  position: absolute;
-  right: 30px;
-  top: 10px;
-}
 nav input{
   display: none;
-}
-.body-text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-  padding: 0 30px;
-}
-.body-text div{
-  font-size: 45px;
-  font-weight: 600;
 }
 .logo {
   position:absolute;
@@ -105,3 +73,16 @@ nav input{
   height: 70px;
   width: 70px;
 }
+.body-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 0 30px;
+  }
+  .body-text div{
+    font-size: 30px;
+    font-weight: 200;
+  }
