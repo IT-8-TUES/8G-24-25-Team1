@@ -1,1 +1,4 @@
 Yachts Project DEVELOPMENT
+
+Useful links:
+https://www.w3schools.com/howto/howto_css_navbar_icon.asp

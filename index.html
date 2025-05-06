@@ -1,80 +1,50 @@
-
 <!DOCTYPE html>
-
-<html lang="bg">
-
+<html lang="bg" >
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="yachts" content="width=device-width, initial-scale=1.0">
-
-    <title>Яхти</title>
-
-    <link rel="stylesheet" href="css/styles.css">
-
-             
-
-    <!- fonts ->
-
-    <link rel="preconnect" href=https://fonts.googleapis.com>
-
-    <link rel="preconnect" href=https://fonts.gstatic.com crossorigin>
-
-    <link href=https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap rel="stylesheet">
-
-              
+  <meta charset="UTF-8">
+  <title>Яхти</title>
+  
+  <!-- main css -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com crossorigin">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 
- 
-
 <body>
 
-    <script src="js/main.js"></script>
-
-    <nav>
-		<div class="container">
-			<a href="index.html">
-				<img src="images/logo.png" alt="logo">
-			</a>
-		</div>
-
-        <div class="main-menu">
-            <ul>
-                <li><a href="#home">Начало</a></li>
-                <li class="dropdown">
-					<a href="javascript:void(0)" class="dropbtn">Продажба</a>
-						<div class="dropdown-content">
-							<a href="#new-yachts">Нови яхти</a>
-							<a href="#used-yachts">Упортебявани яхти</a>
-                        </div>
-				</li>
-
-                                                           <li class="dropdown">
-
-                                                                          <a href="javascript:void(0)" class="dropbtn">Наем</a>
-
-                                                                          <div class="dropdown-content">
-
-                                                                                         <a href="#new-yachts">Яхти</a>
-
-                                                                                         <a href="#used-yachts">Катери</a>
-
-                                                                          </div>
-
-                                                           </li>
-
-                                                           <li><a href="#home">Дестинации</a></li>
-
-                                                           <li><a href="#contact">Контакти</a></li>
-
-		</ul>
-
+<nav>
+  <div class="menu-view">
+    <div>
+        <!--a href="index.html">Logo</a-->
+        <img src="images/logo.png" alt="" class="logo"/>
     </div>
+	
+    <ul class="menu-links">
+      <li><a href="#">Начало</a></li>
+	  <li>
+        <a href="#">Продажби</a>
+        <ul class="drop-menu">
+          <li><a href="#">Нови яхти</a></li>
+          <li><a href="#">Употребявани яхти</a></li>
+        </ul>
+      </li>
+	  <li>
+        <a href="#">Наем</a>
+        <ul class="drop-menu">
+          <li><a href="#">Яхти</a></li>
+          <li><a href="#">Кратери</a></li>
+        </ul>
+      </li>
+	  <li><a href="#">Пристанища</a></li>
+      <li><a href="#">Контакти</a></li>
+    </ul>
+  </div>
+</nav>
 
-    </nav>    
-
+  
 </body>
-
 </html>
