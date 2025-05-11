@@ -67,7 +67,6 @@ nav input{
 }
 .logo {
   position:absolute;
-  z-index-999;
   top:0;
   left:0;
   height: 70px;
@@ -111,11 +110,7 @@ nav input{
   background: #3A3B3C;
 }
 .fixed-footer-logo {
-  z-index-999;
-  top:0;
-  left:0;
   height: 25px;
   width: 25px;
+  padding: 0 5px;
 }
-
-
