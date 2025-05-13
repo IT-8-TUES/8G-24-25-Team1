@@ -23,12 +23,16 @@
     background-image: url("../images/port-background.jpg");
     background-size: cover;
  }
+ .ports-wrapper-child {
+  float: left;
+  width: 30%;
+ }
 .ports-hidden-container {
   display: none;
 }
 .port-image {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 }
 .contacts-header-text{
   padding: 2rem;
@@ -50,4 +54,26 @@
     padding: 30px 30px;
     background-image: url("../images/contacts-background.jpg");
     background-size: cover;
+ }
+ .index-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: calc(100% - 150px);
+    padding: 30px 30px;
+    background-image: url("../images/index-background.jpg");
+    background-size: cover;
+ }
+ .index-header-text{
+    padding: 1rem;
+    font-size: 20px;
+    color: #173509;
+ }
+ .index-body-text{
+  padding: 1rem;
+  font-size: 15px;
+  color: #4a2c19;
+  text-align: justify;
  }
