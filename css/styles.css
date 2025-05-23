@@ -1,0 +1,275 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f8f8;
+}
+
+nav {
+  background-color: white;
+  padding: 10px 10px;
+  border-bottom: 1px solid #eee;
+}
+.menu-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  width: auto;
+}
+.logo-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  width: 40px;
+  font-weight: bold;
+  color: #414141;
+  margin-left: 8px;
+}
+.menu-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.menu-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-links a:hover {
+  color: #0073e6;
+}
+.dropdown {
+  position: relative;
+}
+.drop-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+.dropdown:hover .drop-menu {
+  display: block;
+}
+.drop-menu li {
+  padding: 8px 12px;
+}
+.drop-menu li a {
+  color: #333;
+  white-space: nowrap;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search-input {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 13px;
+}
+.lang-selector {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+.index-wrapper {
+  max-width: 1200px;
+  margin: 30px auto 100px auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.index-header-image img {
+  width: 100%;
+  height: auto;
+}
+.index-body-text {
+  padding: 1rem;
+  font-size: 15px;
+  color: #4a2c19;
+  text-align: justify;
+}
+.index-header-text {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 1rem;
+  color: #333;
+}
+
+.site-footer {
+  width: 100%;
+  background-color: #003580; /* Navy blue */
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  position: relative;
+  bottom: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-title {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #cce0ff;
+}
+
+.social-icon {
+  background-color: white;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+.social-icon img {
+  height: 28px;  
+  width: 28px;
+  object-fit: contain; 
+}
+
+.social-icons2 {
+  display: flex;
+  gap:10px;
+   justify-content: right; 
+  align-items: center;
+}
+.social-icons2 img{
+height: 24px;  
+width: 24px;
+object-fit: contain; 
+}
+.yacht-section {
+  padding: 40px 30px;
+  color: #333;
+  background-color: #f9f9f9;
+  margin-top: 40px;
+}
+
+.yacht-header {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #173509;
+}
+
+.yacht-dropdowns {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.dropdown-item {
+  margin-bottom: 10px;
+}
+
+.dropdown-title {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 0;
+  color: #173509;
+  transition: color 0.3s;
+}
+
+.dropdown-title:hover {
+  color: #0a5f13;
+}
+
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  margin-left: 15px;
+}
+
+.dropdown-content.show {
+  max-height: 100px;
+  opacity: 1;
+}
+
+.dropdown-content a {
+  font-size: 14px;
+  color: #8a8a8a;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+}
+
+.dropdown-divider {
+  height: 1px;
+  background-color: #ccc;
+  margin: 10px 0;
+}
+
+.yacht-description {
+  font-size: 14px;
+  color: #999999;
+  max-width: 800px;
+  text-align: left;
+  line-height: 1.6;
+}
