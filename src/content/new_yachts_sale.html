@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="bg" >
+<head>
+  <meta charset="UTF-8">
+  <title>Нови яхти</title>
+  
+  <!-- main css -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/content.css">
+  <link rel="stylesheet" href="../css/yachts-sale.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="menu-view">
+            <div>
+                <img src="../images/logo.png" alt="" class="logo"/>
+                <p class="logo-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ТЕАМ1 Яхти</p>
+            </div>
+            
+            <ul class="menu-links">
+            <li><a href="../index.html">Начало</a></li>
+            <li>
+                <a href="#">Продажби</a>
+                <ul class="drop-menu">
+                <li><a href="new_yachts_sale.html">Нови яхти</a></li>
+                <li><a href="salesoldyachts.html">Употребявани яхти</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Наеми</a>
+                <ul class="drop-menu">
+                <li><a href="rent_yachts.html">Яхти</a></li>
+                <li><a href="rentcaters.html">Катери</a></li>
+                </ul>
+            </li>
+            <li><a href="ports.html">Пристанища</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="yachts-shop">
+        <div class="yachts">
+            <div class="yacht-card">
+                <img src="../images/yacht1.jpg" alt="CHRISTINA O" class="yacht-image">
+                <div>
+                    <h3 class="yacht-title">CHRISTINA O</h3>
+                    <p>Луксозна моторна яхта за 500 000 долара – елегантен дизайн, просторен салон, модерна навигация, мощен двигател, подходяща за круизи и развлечения.</p>
+                    <p>$500,000</p>
+                    <button class="add-to-cart-btn" data-yacht-name="CHRISTINA O" data-yacht-price="500000">Добави в количката</button>
+                </div>
+            </div>
+
+            <div class="yacht-card">
+                <img src="../images/yacht2.png" alt="CARINTHIA VII" class="yacht-image">
+                <div>
+                    <h3 class="yacht-title">CARINTHIA VII</h3>
+                    <p>Премиум суперяхта за 2 500 000 долара – елегантен дизайн, просторни каюти с бани, луксозен интериор, джакузи на палубата, модерна навигация, отлична автономност и комфорт при дълги пътувания.</p>
+                    <p>$2,500,000</p>
+                    <button class="add-to-cart-btn" data-yacht-name="CARINTHIA VII" data-yacht-price="2500000">Добави в количката</button>
+                </div>
+            </div>
+
+            <div class="yacht-card">
+                <img src="../images/yacht3.jpg" alt="O'PARI" class="yacht-image">
+                <div>
+                    <h3 class="yacht-title">O'PARI</h3>
+                    <p>Луксозна яхта за 450 000 долара – стилен дизайн, комфортна каюта, модерно оборудване, икономичен двигател, идеална за уикенд круизи и крайбрежни приключения.</p>
+                    <p>$450,000</p>
+                    <button class="add-to-cart-btn" data-yacht-name="O'PARI" data-yacht-price="450000">Добави в количката</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart">
+            <img src="../images/cart.png" alt="cart" class="cart-image">
+            <h3 class="cart-title">Количка (<span id="cart-item-count">0</span>)</h3>
+        </div>
+    </div>
+	
+	<div class="fixed-footer">
+        <div>
+            <a href="http://instagram.com"><img src="../images/instagram.png" alt="instagram" class="fixed-footer-logo"/></a>
+            <a href="http://facebook.com"><img src="../images/facebook.png" alt="facebook" class="fixed-footer-logo"/></a>
+            <a href="http://whatsapp.com"><img src="../images/whatsapp.jpg" alt="whatsapp" class="fixed-footer-logo"/></a>
+            <a href="http://twitter.com"><img src="../images/twitter.png" alt="twitter" class="fixed-footer-logo"/></a>
+        </div>
+
+
+        <ul class="fixed-footer-links">
+            <li>
+                <a href="new_yachts_sale.html">Продажби</a>
+                <a href="rent_yachts.html">Наеми</a>
+                <a href="ports.html">Пристанища</a>
+                <a href="contacts.html">Контакти</a>
+                <text class="fixed-footer-text">&copy; 2025 TEAM1 &nbsp;</text>
+            </li>
+        </ul>
+    </div>   
+
+    <div id="cart-modal">
+        <h2>Вашата количка</h2>
+        <ul id="cart-items-list"></ul>
+        <p>Общо: $<span id="cart-item-price">0</span></p>
+        <button id="close-cart">Затвори количката</button>
+    </div>
+
+    <script src="../js/addToCart.js"></script>
+</body>
+</html>

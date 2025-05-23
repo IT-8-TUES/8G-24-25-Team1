@@ -1,0 +1,117 @@
+.ports-header-text{
+  padding: 2rem;
+  font-size: 45px;
+  color: #173509;
+ }
+ .ports-body-links{
+    padding: 5px 2rem;
+    font-size: 15px;
+    color: #173509;
+ }
+  .ports-container{
+    padding: 5px 2rem;
+    font-size: 15px;
+ }
+ .ports-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: calc(100% - 150px);
+    padding: 100px 100px;
+    background-image: url("../images/port-background.jpg");
+    background-size: cover;
+ }
+ .ports-wrapper-child {
+  float: left;
+  width: 30%;
+ }
+.ports-hidden-container {
+  display: none;
+}
+.port-image {
+  height: 250px;
+  width: 250px;
+}
+.contacts-header-text{
+  padding: 2rem;
+  font-size: 45px;
+  color: #173509;
+ }
+ .contacts-body-text{
+  padding: 2rem;
+  font-size: 35px;
+  color: #173509;
+ }
+.contacts-body-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: calc(100% - 150px);
+    padding: 30px 30px;
+    background-image: url("../images/contacts-background.jpg");
+    background-size: cover;
+ }
+ .index-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: calc(100% - 150px);
+    padding: 30px 30px;
+    background-image: url("../images/index-background.jpg");
+    background-size: cover;
+ }
+ .index-header-text{
+    padding: 1rem;
+    font-size: 20px;
+    color: #173509;
+ }
+ .index-body-text{
+  padding: 1rem;
+  font-size: 15px;
+  color: #4a2c19;
+  text-align: justify;
+ }
+.yachts-header-text{
+  padding: 2rem;
+  font-size: 45px;
+  color: #173509;
+ }
+ .yachts-wrapper{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   height: calc(100% - 150px);
+   padding: 100px 100px;
+   background-image: url("../images/salesyachts.jpg");
+   background-size: cover;
+ }
+ .rents-wrapper{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   height: calc(100% - 150px);
+   padding: 100px 100px;
+   background-image: url("../images/rentyachts.jpg");
+   background-size: cover;
+ }
+ .rents-header-text{
+  padding: 2rem;
+  font-size: 45px;
+  color: #173509;
+ }
+ .rents-body-text{
+  padding: 1rem;
+  font-size: 15px;
+  color: #30247d;
+  text-align: justify;
+ }
